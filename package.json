@@ -3,6 +3,7 @@
 	"private": true,
 	"version": "0.0.0",
 	"scripts": {
+		"publish": "lerna publish",
 		"canary": "lerna publish --canary=alpha --skip-git --yes",
 		"prerelease": "lerna publish --skip-git --yes --cd-version=prerelease"
 	},
