@@ -1,8 +1,9 @@
 {
-	"name": "preid-version-test",
+	"name": "preid-version",
+	"private": true,
 	"version": "0.0.0",
 	"scripts": {
-		"canary": "lerna publish --canary --skip-git --yes"
+		"canary": "lerna publish --canary=beta --skip-git --yes"
 	},
 	"devDependencies": {
 		"lerna": "^2.2.0"
